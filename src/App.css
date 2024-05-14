@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #000000;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,27 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body {
+  background-color: #000000; 
+  color : white;
+  
+
+}
+
+.container {
+  display: flex;
+}
+
+.dropdown {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.Rules {
+  margin-top: 20px;
+  font-family: 'Roboto Mono', monospace;
+  flex : 1;
+  color: greenyellow;
 }
